@@ -1,0 +1,36 @@
+.wrapper{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    padding-top: 3em;
+    align-items: center;
+    justify-content: space-between;
+}
+.logoContainer{
+    display: flex;
+    flex-direction: column;
+}
+.logoContainer:hover{
+    cursor: pointer;
+}
+.logoContainer span{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-weight:900;
+    font-size: 1.8em;
+}
+.linksList{
+    display: flex;
+    flex-direction: row;
+    gap: 8em;
+    text-decoration: none;
+    list-style-type: none;
+    padding:0 3em;
+}
+.linksItem{
+    font-size: 1.2em;
+}
+.linksItem:hover{
+    cursor: pointer;
+}

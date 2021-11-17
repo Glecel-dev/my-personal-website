@@ -3,5 +3,8 @@ module.exports = {
     siteUrl: "https://www.yourdomain.tld",
     title: "My Personal Website",
   },
-  plugins: ["gatsby-plugin-sass"],
+  plugins: [{
+    resolve: `gatsby-plugin-sass`,
+  },],
+  
 };
