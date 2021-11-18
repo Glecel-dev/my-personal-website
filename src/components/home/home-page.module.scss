@@ -2,7 +2,9 @@
 
 .wrapper{
     // background-color: rgb(17, 17, 17);
-    background-color: black;
+    background: #000000;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to top, #000000,#000000,#000000,#000000,#000000,#2a2a2a);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to top, #000000,#000000,#000000,#000000,#000000, #000000,#000000,#2a2a2a); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
     height:100vh;
     padding: 0 4em;
@@ -46,37 +48,13 @@ body{
     box-sizing: border-box;
     overflow-y:auto;
 }
-// .contentContainer::-webkit-scrollbar-track
-// {
-// 	// -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
-// 	border-radius: 10px;
-// 	// background-color:black;
-// }
-// .contentContainer::-webkit-scrollbar
-// {
-// 	width: 12px;
-// 	// background-color:black ;
 
-// }
-// .contentContainer::-webkit-scrollbar-thumb
-// {
-// 	border-radius: 10px;
-// 	// -webkit-box-shadow: inset 0 0 6px whitesmoke;
-// 	// background-color: rgb(0, 0, 0);
-//     background-image: url('../../images/logo.png'); 
-
-    
-// }
-// .contentContainer::-webkit-scrollbar {
-//     // width: 2px;
-//   }
 .contentContainer::-webkit-scrollbar {
 width: 1.5em;
 }
 
 .contentContainer::-webkit-scrollbar-track {
--webkit-box-shadow: inset 0 0 6px rgba(22, 22, 22);
-	// background-color:rgb(19, 19, 19);
+
     width: 0.1em;
     	border-radius: 10px;
 
