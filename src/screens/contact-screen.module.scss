@@ -1,0 +1,9 @@
+.wrapper {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  box-sizing: border-box;
+  padding: 2em 1em;
+  flex-direction: row;
+  justify-content: space-between;
+}

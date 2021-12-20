@@ -3,6 +3,7 @@ import HomeScreen from '../../screens/HomeScreen'
 import ProjectScreen from '../../screens/ProjectScreen'
 import HeaderComponent from './HeaderComponent'
 import {wrapper,contentContainer,centralContainer,linksContainer}from './home-page.module.scss'
+import ContactScreen from "../../screens/ContactScreen";
 
 
 const HomePage =()=>(
@@ -24,6 +25,7 @@ const HomePage =()=>(
                 <div className={contentContainer}>
                     <HomeScreen/>
                     <ProjectScreen/>
+                    <ContactScreen/>
                 </div>
             </div>
         </div>

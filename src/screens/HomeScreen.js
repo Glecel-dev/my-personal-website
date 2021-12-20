@@ -1,16 +1,16 @@
 import * as React from 'react'
 import centralLogo from '../images/GLEDI (2).png'
-import {wrapper, firstCentralText, secondCentralText} from './home-screen.module.css'
+import {wrapper, firstCentralText, secondCentralText, secondaryTextFont} from './home-screen.module.css'
 const HomeScreen = ()=>(
     <main>
         <div className={wrapper}>
              <span className={firstCentralText}>
-             <p>I Am</p>
+             <p className={secondaryTextFont}>I Am</p>
              </span>
         <img src={centralLogo} alt=""  width='900'/>
         <span className={secondCentralText}>
-        <p>A SENIOR</p>
-        <p>FULL-STACK DEVELOPER</p>
+        <p className={secondaryTextFont}>A SENIOR</p>
+        <p className={secondaryTextFont}>FULL-STACK DEVELOPER</p>
         </span>
 
 

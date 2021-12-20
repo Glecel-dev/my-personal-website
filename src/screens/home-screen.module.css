@@ -15,7 +15,7 @@
 
 }
 .secondCentralText{
-width: 30%;
+width: 60%;
 display: flex;
 flex-direction: column;
 justify-content: flex-end;
@@ -27,4 +27,8 @@ align-items: flex-end;
 margin: 0;
 padding: 0;
     
+}
+.secondaryTextFont{
+    font-size: 1.4em;
+    font-weight: 700;
 }
