@@ -19,6 +19,9 @@
     "gatsby-plugin-sass": "^4.14.0",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
-    "sass": "^1.43.2"
+    "react-spring": "^9.3.3",
+    "react-spring-3d-carousel": "^1.2.1",
+    "sass": "^1.43.2",
+    "uuid": "^8.3.2"
   }
 }

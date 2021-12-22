@@ -1,11 +1,12 @@
 .wrapper{
     width: 95%;
+    height: 80vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     font-weight: 600;
-    padding-top: 8em;
+    
 }
 .firstCentralText{
     width: 30%;
